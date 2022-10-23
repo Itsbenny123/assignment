@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  left: 30;
+  background-color: blue;
+}
+fieldset ,h1 {
+  left: 30px;
+  right: 12px;
+  width: 30%;
+  height: 20%;
+  margin: 5%;
+  align-items: center;
+  padding-left: 15%;
+}
+button{
+  margin: 0 auto;
+}
+.color{
+  border-radius: 5%, 5, 5, 5 ;
+}
+fieldset{
+  border:2px solid black;
+  border-collapse: collapse;
+}
