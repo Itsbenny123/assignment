@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>registration</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <h1> REGISTRATION</h1>
+    <form action="login.html">
+        <fieldset>
+            <div>
+    <label for="First name">First name</label><br>
+    <input type="text" name="First name" required /><br>
+    <label for="Last name">Last name</label><br>
+    <input type="text" name="Last name" required/><br>
+    <label for="Phone number">Phone number</label><br>
+    <input type="number" name="Phone number" maxlength="11" pattern="0[7-9](0-9)" required/><br>
+    <select required>
+        <option>Male</option>
+        <option>female</option>
+    </select><br>
+    <label for="D.O.B">Date Of  Birth</label><br>
+    <input type="date" name="D.O.B" required/><br>
+    <br>
+    <label for="Favourite color">Favourite color</label><br>
+    <input type="color" name="Favourite color" class="color" required/><br>
+</div>
+</fieldset>
+</form>
+<button><a href="login.html">submit</a></button>
+</body>
+
+</html>
